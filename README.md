@@ -37,5 +37,3 @@ model_id = "NEldin10/llama-3.2-1B-ft-v0.1-qlora-merged"
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(model_id, device_map="auto")
 
-prompt = "Write a Python function to check if a number is prime."
-# Note: Use the Llama 3 Prompt Format for best results
